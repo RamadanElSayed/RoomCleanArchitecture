@@ -1,7 +1,9 @@
 package com.instant.mvi.data.di
 
+import com.instant.mvi.data.repository.SchoolRepositoryImpl
 import com.instant.mvi.domain.repository.UserRepository
 import com.instant.mvi.data.repository.UserRepositoryImpl
+import com.instant.mvi.domain.repository.SchoolRepository
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
@@ -19,6 +21,11 @@ abstract class RepositoryModule {
         userRepositoryImpl: UserRepositoryImpl
     ): UserRepository
 
+    @Binds
+    @Singleton
+    abstract fun bindSchoolRepository(
+        schoolRepositoryImpl: SchoolRepositoryImpl
+    ): SchoolRepository
 
 //    @Provides
 //    @Singleton

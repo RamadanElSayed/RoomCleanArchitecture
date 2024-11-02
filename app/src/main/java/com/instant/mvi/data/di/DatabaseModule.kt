@@ -2,7 +2,7 @@ package com.instant.mvi.data.di
 import android.content.Context
 import androidx.room.Room
 import com.instant.mvi.data.database.AppDatabase
-import com.instant.mvi.data.database.UserDao
+import com.instant.mvi.data.database.dao.UserDao
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

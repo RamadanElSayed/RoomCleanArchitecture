@@ -1,8 +1,6 @@
 package com.instant.mvi.presentation.view.uimodel
 
-import android.graphics.Bitmap
-import android.net.Uri
-import com.instant.mvi.data.database.UserEntity
+import com.instant.mvi.data.database.entity.UserEntity
 
 // Intent represents user interactions
 sealed class UserIntent {

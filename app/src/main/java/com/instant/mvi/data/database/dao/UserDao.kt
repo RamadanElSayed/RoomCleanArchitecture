@@ -1,8 +1,8 @@
-package com.instant.mvi.data.database
+package com.instant.mvi.data.database.dao
 
 
 import androidx.room.*
-import androidx.room.*
+import com.instant.mvi.data.database.entity.UserEntity
 import kotlinx.coroutines.flow.Flow
 
 @Dao

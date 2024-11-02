@@ -2,7 +2,7 @@ package com.instant.mvi.presentation.view.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.instant.mvi.data.database.UserEntity
+import com.instant.mvi.data.database.entity.UserEntity
 import com.instant.mvi.data.model.StateResources
 import com.instant.mvi.domain.usecases.thememanagmentusecases.GetThemeUseCase
 import com.instant.mvi.domain.usecases.thememanagmentusecases.SaveThemeUseCase

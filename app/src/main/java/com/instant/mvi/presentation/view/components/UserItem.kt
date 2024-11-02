@@ -16,7 +16,7 @@ import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.instant.mvi.data.database.UserEntity
+import com.instant.mvi.data.database.entity.UserEntity
 import java.io.File
 
 // A single user item in the list, now using UserEntity with image support

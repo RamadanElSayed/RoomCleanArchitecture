@@ -1,6 +1,6 @@
 package com.instant.mvi.presentation.view.uimodel
 
-import com.instant.mvi.data.database.UserEntity
+import com.instant.mvi.data.database.entity.UserEntity
 
 // ViewState to manage the UI state
 data class UserViewState(

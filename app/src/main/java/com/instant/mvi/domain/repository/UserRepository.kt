@@ -1,6 +1,6 @@
 package com.instant.mvi.domain.repository
 
-import com.instant.mvi.data.database.UserEntity
+import com.instant.mvi.data.database.entity.UserEntity
 import com.instant.mvi.data.model.StateResources
 
 // User repository interface using UserEntity for Room integration

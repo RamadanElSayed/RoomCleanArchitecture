@@ -1,6 +1,6 @@
 package com.instant.mvi.data.repository
-import com.instant.mvi.data.database.UserDao
-import com.instant.mvi.data.database.UserEntity
+import com.instant.mvi.data.database.dao.UserDao
+import com.instant.mvi.data.database.entity.UserEntity
 import com.instant.mvi.data.model.StateResources
 import com.instant.mvi.domain.repository.UserRepository
 import kotlinx.coroutines.flow.Flow
